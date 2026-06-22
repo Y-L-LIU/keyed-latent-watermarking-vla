@@ -1,0 +1,10 @@
+=== LATENT-DC entropy detector (obs-bucket mod N_KEYS=20, seed site) ===
+latentdc-N20 student PLAIN: n=50 Z_e mean=+0.95 std=1.10 | seed-retention mean=+0.687
+clean         student PLAIN: n=50 Z_e mean=-0.44 std=1.00 | seed-retention mean=-0.166
+cross-student AUC (latentdc-N20 vs clean) = 0.830
+  |G|= 1: TPR@1%=0.094
+  |G|= 4: TPR@1%=0.356
+  |G|= 8: TPR@1%=0.564
+  |G|=16: TPR@1%=0.900
+  |G|=32: TPR@1%=0.999
+VERDICT: SURVIVES

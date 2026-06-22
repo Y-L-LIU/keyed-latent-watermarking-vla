@@ -1,0 +1,17 @@
+=== DISTILLATION-SURVIVAL VERDICT (obs-tied, base-detector MAP) ===
+key=42 q=0.08 proj=(0, 1, 2)
+
+Per-episode calibrated Z_e(k*) (true key vs 32 decoys):
+  obstied student PLAIN : n= 50  Z_e(k*) mean=+0.26 std=1.05  median=+0.14  frac>2=0.06
+  clean   student PLAIN : n= 50  Z_e(k*) mean=+0.22 std=1.01  median=+0.22  frac>2=0.04
+  teacher WATERMARKED   : n=  2  Z_e(k*) mean=+4.47 std=1.01  median=+4.47  frac>2=1.00
+  teacher PLAIN         : n=  2  Z_e(k*) mean=+0.28 std=0.52  median=+0.28  frac>2=0.00
+
+Aggregated detection TPR@1% (decoy-calibrated null):
+  |G|= 1: TPR@1%=0.035
+  |G|= 4: TPR@1%=0.043
+  |G|= 8: TPR@1%=0.061
+  |G|=16: TPR@1%=0.126
+  |G|=32: TPR@1%=0.204
+
+Cross-student AUC (obstied-plain vs clean-plain, true key) = 0.504

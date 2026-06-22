@@ -1,0 +1,15 @@
+{
+  "arm": "dc",
+  "n_eps": 40,
+  "key": 42,
+  "beta_out": 0.1,
+  "retention": 0.47765561754608865,
+  "survives": true,
+  "decoy_mean": -0.0038223389079596335,
+  "decoy_std": 0.07690379984947761,
+  "z": 6.260782316812094,
+  "n_decoy": 16,
+  "resid_rms": 0.06675376362691629,
+  "base_rms": 0.350404650661518,
+  "student_ckpt": "/workspace/vla/lingbot_out/distill_ckpt/assembled_dc"
+}

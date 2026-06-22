@@ -1,0 +1,5 @@
+=== bias-retention: keying=output_task_dc ckpt=distill_outputtaskdc_k42 ===
+chunks=268  residual_rms=0.1460  bias_rms=0.0974
+retention coefficient = +0.988   corr(residual,bias) = +0.659
+decoy-calibrated Z (true vs 32 decoys, all chunks) = +6.81
+VERDICT: SURVIVES (learnable key)

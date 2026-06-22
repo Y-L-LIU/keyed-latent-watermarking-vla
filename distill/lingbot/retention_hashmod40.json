@@ -1,0 +1,16 @@
+{
+  "arm": "hashmod",
+  "n_keys": 40,
+  "n_eps": 40,
+  "key": 42,
+  "beta_out": 0.1,
+  "retention": 0.12779152223140713,
+  "survives": false,
+  "decoy_mean": 0.018472894453711232,
+  "decoy_std": 0.04457431771824856,
+  "z": 2.4525024929420014,
+  "n_decoy": 16,
+  "resid_rms": 0.0762945342328771,
+  "base_rms": 0.350404650661518,
+  "student_ckpt": "/workspace/vla/lingbot_out/distill_ckpt/assembled_hashmod40"
+}

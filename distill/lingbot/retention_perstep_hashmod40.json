@@ -1,0 +1,17 @@
+{
+  "arm": "hashmod",
+  "n_keys": 40,
+  "perstep": 1,
+  "n_eps": 40,
+  "key": 42,
+  "beta_out": 0.1,
+  "retention": 0.0570860589697633,
+  "survives": false,
+  "decoy_mean": 0.0012478700059148466,
+  "decoy_std": 0.04336082020014442,
+  "z": 1.2877567218137114,
+  "n_decoy": 16,
+  "resid_rms": 0.08587601232806376,
+  "base_rms": 0.350404650661518,
+  "student_ckpt": "/workspace/vla_out/assembled_hashmod40"
+}

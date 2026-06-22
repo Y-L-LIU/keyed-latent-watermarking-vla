@@ -1,0 +1,10 @@
+=== LATENT-DC detector (faithful: seed injection site) ===
+latent-DC student PLAIN: n=50 Z_e mean=+2.20 std=1.28 | seed-retention mean=+3.019
+clean    student PLAIN: n=50 Z_e mean=+0.16 std=1.21 | seed-retention mean=+0.179
+cross-student AUC (latentdc-plain vs clean-plain) = 0.891
+  |G|= 1: TPR@1%=0.371
+  |G|= 4: TPR@1%=0.982
+  |G|= 8: TPR@1%=1.000
+  |G|=16: TPR@1%=1.000
+  |G|=32: TPR@1%=1.000
+VERDICT: SURVIVES

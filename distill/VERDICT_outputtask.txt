@@ -1,0 +1,11 @@
+=== bias-retention: keying=output_task ckpt=distill_outputtask_k42 ===
+chunks=268  residual_rms=0.1442  bias_rms=0.1000
+retention coefficient = +0.004   corr(residual,bias) = +0.003
+decoy-calibrated Z (true vs 32 decoys, all chunks) = +0.14
+VERDICT: does NOT survive (key not learned)
+
+=== bias-retention: keying=output ckpt=distill_output_k42 ===
+chunks=268  residual_rms=0.1216  bias_rms=0.1000
+retention coefficient = +0.010   corr(residual,bias) = +0.009
+decoy-calibrated Z (true vs 32 decoys, all chunks) = +1.29
+VERDICT: does NOT survive (key not learned)
